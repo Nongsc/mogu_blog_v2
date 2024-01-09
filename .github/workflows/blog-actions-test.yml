@@ -29,7 +29,7 @@ jobs:
       # 安装maven依赖
       - name: Maven Clean Install
         run: |
-          echo '=====开始mvn clean====='
+          echo '=====开始mvn clean ====='
           mvn clean
 
           echo '=====开始mvn install&&package====='
