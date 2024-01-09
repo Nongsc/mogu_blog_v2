@@ -64,30 +64,18 @@ jobs:
           mvn docker:build
           cd ..
 
-          echo '=====开始构建mogu_monitor====='
-          cd mogu_monitor
-          mvn docker:build
-          cd ..
 
           echo '=====开始构建mogu_picture====='
           cd mogu_picture
           mvn docker:build
           cd ..
 
-          echo '=====开始构建mogu_search====='
-          cd mogu_search
-          mvn docker:build
-          cd ..
-
+          
           echo '=====开始构建mogu_sms====='
           cd mogu_sms
           mvn docker:build
           cd ..
 
-          echo '=====开始构建mogu_spider====='
-          cd mogu_spider
-          mvn docker:build
-          cd ..
 
           echo '=====开始构建mogu_web====='
           cd mogu_web
@@ -129,20 +117,16 @@ jobs:
           echo '=====开始上传mogu_gateway====='
           docker push registry.cn-shenzhen.aliyuncs.com/nongscblog/mogu_gateway
 
-          echo '=====开始上传mogu_monitor====='
-          docker push registry.cn-shenzhen.aliyuncs.com/nongscblog/mogu_monitor
 
           echo '=====开始上传mogu_picture====='
           docker push registry.cn-shenzhen.aliyuncs.com/nongscblog/mogu_picture
 
           echo '=====开始上传mogu_search====='
-          docker push registry.cn-shenzhen.aliyuncs.com/nongscblog/mogu_search
 
           echo '=====开始上传mogu_sms====='
           docker push registry.cn-shenzhen.aliyuncs.com/nongscblog/mogu_sms
 
           echo '=====开始上传mogu_spider====='
-          docker push registry.cn-shenzhen.aliyuncs.com/nongscblog/mogu_spider
 
           echo '=====开始上传mogu_web====='
           docker push registry.cn-shenzhen.aliyuncs.com/nongscblog/mogu_web
