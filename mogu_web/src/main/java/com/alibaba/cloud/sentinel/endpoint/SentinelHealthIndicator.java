@@ -59,7 +59,7 @@ public class SentinelHealthIndicator extends AbstractHealthIndicator {
 
         // Check health of Dashboard
         boolean dashboardUp = true;
-        List<Tuple2<String, Integer>> consoleServer = TransportConfig.getConsoleServerList();
+        List<Endpoint> consoleServer = TransportConfig.getConsoleServerList();
         if (consoleServer == null) {
             // If Dashboard isn't configured, it's OK and mark the status of Dashboard
             // with UNKNOWN.
