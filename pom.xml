@@ -47,7 +47,7 @@
         <knife4j.version>3.0.2</knife4j.version>
         <spring-cloud-alibaba.version>2.2.9.RELEASE</spring-cloud-alibaba.version>
         <spring-boot-dependencies.version>2.3.12.RELEASE</spring-boot-dependencies.version>
-        <spring-cloud-dependencies.version>Spring Cloud Hoxton.SR12</spring-cloud-dependencies.version>
+        <spring-cloud-dependencies.version>Hoxton.SR12</spring-cloud-dependencies.version>
     </properties>
 
 
